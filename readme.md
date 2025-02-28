@@ -39,18 +39,19 @@ This is a simple checkout system built with vanilla PHP (no frameworks) that int
 3. **Configure PayPal Credentials**
    - Create a `.env` file in the root directory and add your PayPal credentials:
      ```
-     PAYPAL_CLIENT_ID=your_client_id
-     PAYPAL_CLIENT_SECRET=your_client_secret
+     PAYPAL_CLIENT_ID= 'AZAPp9yt5jI5W_jKesvIFKSYZQfUFjt_LoYYCE_oGmLQZmnVMwA5RMtsMqyrla99SLJLWGfIR81ldaDc', 
+     PAYPAL_SECRET='EG_Ql2TNyN2lYpydmFvGY-H0Pcp6pyWn3pCZHxs1iBVmj2bpQXDo8naSbIK2cLeYdLa4trvOFJoRyVmk',
      PAYPAL_MODE=sandbox
+     APP_URL=http://localhost:8000
+
      ```
-   - Alternatively, you can directly update the `config/paypal.php` file with your credentials.
 
 4. **Run the Application**
    Start a local PHP server:
    ```bash
    php -S localhost:8000
    ```
-   Access the application in your browser at `http://localhost:8000`.
+   Access the application in your browser at `http://localhost:8000/index.php`.
 
 ---
 
