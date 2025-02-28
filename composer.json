@@ -1,0 +1,21 @@
+{
+    "name": "ollyo/php-task",
+    "description": "This is a simple php task for the candidates",
+    "autoload": {
+        "psr-4": {
+            "Ollyo\\Task\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Ollyo",
+        "email": "hello@ollyo.com"
+    }],
+    "require": {
+        "paypal/paypal-checkout-sdk": "^1.0",
+        "paypal/rest-api-sdk-php": "^1.14",
+        "vlucas/phpdotenv": "^5.0"
+    },
+    "scripts": {
+        "run-paypal-integration": "php src/PaypalIntegration.php"
+    }
+}
